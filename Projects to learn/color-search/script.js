@@ -1,10 +1,10 @@
-function colorInformation()
-{
-    var $color = document.getElementById('colorInformation').innerHTML;
-    document.getElementById('colorInformation').innerHTML = "";
+var circle = document.getElementById('circle');
+var colorInformation = document.getElementById('colorInformation');
 
-    if($color)
-    {
-        $color.style.color = "$color";
-    }
+function trocarCor()
+{
+    var color = colorInformation.value;
+    
+    circle.style.backgroundColor = color;
+    colorInformation.value = "";
 }

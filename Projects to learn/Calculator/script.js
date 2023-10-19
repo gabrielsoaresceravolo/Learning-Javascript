@@ -1,7 +1,7 @@
 function insert(num)
 {
-    var $numero = document.getElementById('resultado').innerHTML;
-    document.getElementById('resultado').innerHTML = $numero + num;
+    var numero = document.getElementById('resultado').innerHTML;
+    document.getElementById('resultado').innerHTML = numero + num;
 }
 
 function clean()
@@ -11,10 +11,10 @@ function clean()
 
 function calcular()
 {
-    var $resultado = document.getElementById('resultado').innerHTML;
+    var resultado = document.getElementById('resultado').innerHTML;
     
-    if ($resultado)
+    if (resultado)
     {
-        document.getElementById('resultado').innerHTML = eval($resultado);
+        document.getElementById('resultado').innerHTML = eval(resultado);
     }
 }

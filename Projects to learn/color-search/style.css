@@ -40,7 +40,7 @@ body
     align-items: center;
 }
 
-.square-color
+.circle-color
 {
     background-color: rgb(177, 177, 177);
     width: 300px;
@@ -75,7 +75,7 @@ body
 
 /*========================================*/
 
-.button-square
+.button-circle
 {
     width: 180px;
     height: 30px;
@@ -89,7 +89,7 @@ body
     margin-bottom: 1%;
 }
 
-.button-square:hover
+.button-circle:hover
 {
 
     width: 180px;
