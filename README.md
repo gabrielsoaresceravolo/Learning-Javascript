@@ -1,1 +1,2 @@
-# javascript-projects
+# repository Javascript
+My project repository with Javascript
