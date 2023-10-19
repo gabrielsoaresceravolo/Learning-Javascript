@@ -1,0 +1,121 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+
+body
+{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(45deg, rgb(224, 237, 237), rgb(14, 111, 111));
+    width: 100vw;
+    height: 100vh;
+}
+
+/*========================================*/
+
+.container-header
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-header h1
+{
+    background-color: #00000027;
+    color: #ffffff;
+    padding: 2px 15px;
+    border-radius: 7px;
+    margin: 1%;
+}
+
+/*========================================*/
+
+.container-main
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.square-color
+{
+    background-color: rgb(177, 177, 177);
+    width: 300px;
+    height: 300px;
+    border: 2px solid #000000;
+    border-radius: 180px;
+}
+
+.container-main input
+{
+    width: 250px;
+    height: 30px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    border: 2px solid #555555;
+    border-radius: 5px;
+    outline: none;
+    padding: 2px 15px;
+    margin-top: 2% ;
+}
+
+.container-main input:hover
+{
+    border: 2px solid #999999;
+}
+
+.container-main input:focus
+{
+    border: 2px solid #999999;
+}
+
+/*========================================*/
+
+.button-square
+{
+    width: 180px;
+    height: 30px;
+    text-decoration: none;
+    padding: 2px 15px;
+    margin-top: 1% ;
+    border: 2px solid #555555;
+    border-radius: 180px;
+    background-color: rgba(6, 6, 6, 0.63);
+    color: white;
+    margin-bottom: 1%;
+}
+
+.button-square:hover
+{
+
+    width: 180px;
+    height: 30px;
+    text-decoration: none;
+    padding: 2px 15px;
+    border: 2px solid #999999;
+    background-color: rgba(44, 44, 44, 0.63);
+    color: white;
+}
+
+/*========================================*/
+
+.container-footer
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-footer p
+{
+    background-color: #00000035;
+    color: #ffffff;
+    padding: 2px 15px;
+    border-radius: 7px;
+    margin: 3%;
+}
