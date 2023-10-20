@@ -1,24 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Oi&family=Paytone+One&family=Work+Sans&display=swap');
+
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
 body 
 {
-    font-family: Arial, sans-serif;
+    font-family: 'Oi', serif;
+    font-family: 'Paytone One', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+    width: 100vw;
+    height: 100vh;
+    font-weight: bold;
 }
 
-#menu 
+/*==============================*/
+
+.container-nav
+{
+    background-color: rgba(208, 208, 208, 0.563);
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    align-items:center;
+}
+
+.container-nav img
+{
+    margin: 0 10px;
+    width: 40px;
+    height: 40px;
+}
+
+.container-nav ul
 {
     display: flex;
-    justify-content: center;
+    flex-direction: row;
+    justify-items: center;
+    align-items:center;
+    list-style-type: none;
+    margin: 15px;
 }
 
-.menuItem 
+.container-nav li
 {
-    margin: 10px;
-    text-align: center;
+    margin: 5px;
 }
 
-.menuItem img 
+.container-nav a
 {
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-    cursor: pointer;
+    display: flex;
+    justify-items: center;
+    align-items:center;
+    text-decoration: none;
+    margin-top: 4px;
+    color: black;
+    font-weight: bold;
+}
+
+.container-nav a:hover
+{
+    color: rgb(59, 145, 221);
 }
