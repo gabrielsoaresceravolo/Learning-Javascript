@@ -1,2 +1,2 @@
 # repository Javascript
-My project repository with Javascript
+repository in which I add my projects in which I created to learn JavaScript
