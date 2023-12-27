@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Coordenadas da Imagem</title>
+  <style>
+    #imagem {
+      position: relative;
+    }
+  </style>
+</head>
+<body>
+
+<img id="imagem" src="IMAGEM" alt="Sua Imagem">
+
+<script>
+  // Função para obter as coordenadas quando o mouse é clicado na imagem
+  function obterCoordenadas(event) {
+    var imagem = document.getElementById('imagem');
+    var retangulo = imagem.getBoundingClientRect();
+    var x = event.clientX - retangulo.left;
+    var y = event.clientY - retangulo.top;
+
+    console.log('Coordenadas: X=' + x + ', Y=' + y);
+  }
+
+  // Adiciona um ouvinte de evento de clique na imagem
+  document.getElementById('imagem').addEventListener('click', obterCoordenadas);
+</script>
+
+</body>
+</html>
